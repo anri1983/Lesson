@@ -54,6 +54,11 @@ const result3 = document.querySelector("body > div ul.list");
 // ищем первый div с классом limiter в документе, nth-child - порядковый номер ребенка
 const result4 = document.querySelector("body div.limiter div:nth-child(4)");
 
+const colorBack = document.querySelector('body > div.row.limiter > div:nth-child(4) > ul');
+colorBack.style.backgroundColor = 'blue';
+
+let colorh1 = document.querySelector("body > h1");
+colorh1.style.color = "yellow";
 
 
 
