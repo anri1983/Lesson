@@ -4,7 +4,7 @@
   "description": "An example of git and",
   "main": "src/app.js",
   "scripts": {
-    "dev": "parcel ./src/index.html",
+    "dev": "parcel ./todos/src/index.html",
     "build": "parcel build ./src/index.html"
   },
   "repository": {
